@@ -306,9 +306,15 @@ img{
     width: 65%;
 }
 .skills__css{
-    width: 65%;
+    width: 60%;
 }
 .skills__js{
+    width: 65%;
+}
+.skills__react{
+    width: 50%;
+}
+.skills__python{
     width: 55%;
 }
 .skills__img{
@@ -360,6 +366,12 @@ img{
 .contact__btn {
     text-align: center;
 }
+
+.contact__btn a {
+    color: white;
+    font-weight: var(--font-semi);
+}
+
 .btn{
     color: var(--second-color);
     background: var(--first-color);

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loni Kuang</title>
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
     <!-- wideley used favicon -->
@@ -114,6 +116,28 @@
                             <span class="skills__percentage">intermediate</span>
                         </div>
                     </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react skills__icon' ></i>
+                            <span class="skills__name">React</span>
+                        </div>
+                        <div class="skills__bar skills__react"></div>
+                        <div>
+                            <span class="skills__percentage">intermediate</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon' ></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__python"></div>
+                        <div>
+                            <span class="skills__percentage">intermediate</span>
+                        </div>
+                    </div>
                 </div>
                     
                 <div>
@@ -127,16 +151,29 @@
             <h2 class="section-title">Projects</h2>
 
             <div class="work__container bd-grid">
-                <div class="work__img">
+                <div class="card work__img" style="width: 18rem;">                    
                     <a href="https://lawnknee.github.io/connect-four-refactored/">
-                    <img src="img/project1.png" alt="Connect Four Game">
+                        <img src="img/project1.png" class="card-img-top" alt="Connect Four Game">
                     </a>
+                    <div class="card-body">
+                        <p class="card-text">A simple connect four game built using HTML and JavaScript with Object-Oriented Programming concepts. Each player can choose the color of their piece. Pieces drop down the board using animations.</p>
+                    </div>
                 </div>
-                <div class="work__img">
-                    <img src="img/work2.jpg" alt="">
+                <div class="card work__img" style="width: 18rem;">
+                    <a href="https://warbler-r22-loni.herokuapp.com/">
+                        <img src="img/project2.png" class="card-img-top" alt="Warbler">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">Warbler is a mock Twitter clone where users can sign up/login, follow other users, be followed by other users, and create tweets called “warbles”. I added features such as liking and unliking posts, only showing 100 most recent “warbles” from users that the user is following, and a functionality to edit the user’s profile and change the existing password.</p>
+                    </div>
                 </div>
-                <div class="work__img">
-                    <img src="img/work6.jpg" alt="">
+                <div class="card work__img" style="width: 18rem;">
+                    <a href="https://github.com/lawnknee">
+                        <img src="img/work6.jpg" class="card-img-top" alt="Warbler">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">Coming Soon!</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -176,5 +213,6 @@
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
