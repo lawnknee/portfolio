@@ -1,9 +1,9 @@
 * {
 	-webkit-transition-property: all;
 	-webkit-transition-duration: .2s;
-  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 	-moz-transition-property: all;
-  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 }
 
 /* ==== GOOGLE FONTS ==== */
@@ -159,6 +159,7 @@ img{
 }
 .nav__link:hover{
     position: relative;
+    color: var(--first-color);
 }
 .nav__link:hover::after{
     position: absolute;
@@ -172,6 +173,11 @@ img{
 .nav__logo{
     color: var(--second-color);
 }
+
+.nav__logo:hover{
+    color: var(--first-color);
+}
+
 .nav__toggle{
     color: var(--second-color);
     font-size: 1.5rem;
@@ -244,6 +250,7 @@ img{
 }
 .button:hover{
     box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+    color: var(--second-color);
 }
 
 /* ==== ABOUT ==== */
