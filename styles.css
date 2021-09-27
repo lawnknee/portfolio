@@ -310,16 +310,16 @@ img{
     z-index: var(--z-back)
 }
 .skills__html{
-    width: 75%;
+    width: 80%;
 }
 .skills__css{
-    width: 70%;
+    width: 80%;
 }
 .skills__js{
-    width: 70%;
+    width: 75%;
 }
 .skills__react{
-    width: 60%;
+    width: 65%;
 }
 .skills__python{
     width: 65%;
